@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.codec;
 
@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: 编码器
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/5
  * time   : 18:08

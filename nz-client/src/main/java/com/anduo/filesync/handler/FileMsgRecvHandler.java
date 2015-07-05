@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.handler;
 
@@ -33,7 +33,7 @@ import java.net.InetAddress;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: 文件接收
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/5
  * time   : 16:55

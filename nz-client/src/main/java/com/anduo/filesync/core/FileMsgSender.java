@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.core;
 
@@ -40,7 +40,7 @@ import org.slf4j.LoggerFactory;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: 客户端负责连接服务端发送数据报文到服务端
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/5
  * time   : 17:37

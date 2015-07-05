@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.core;
 
@@ -32,7 +32,7 @@ import io.netty.handler.timeout.IdleStateHandler;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: FileServerInitializer
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/5
  * time   : 16:56

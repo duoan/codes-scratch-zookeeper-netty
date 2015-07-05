@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.core;
 
@@ -40,7 +40,7 @@ import java.util.concurrent.TimeUnit;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: 服务启动器
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/4
  * time   : 01:47

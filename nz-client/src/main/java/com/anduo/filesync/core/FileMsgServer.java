@@ -1,4 +1,4 @@
-// Copyright (C) 2015 meituan
+// Copyright (C) 2015 anduo
 // All rights reserved
 package com.anduo.filesync.core;
 
@@ -50,7 +50,7 @@ import java.util.concurrent.Executors;
  * 　　　　　┗┻┛　┗┻┛
  * ━━━━━━感觉萌萌哒━━━━━━
  * Summary: 服务端负责启动服务并且监听node节点的server，如果节点的id大于自己的id就建立一个client，并传输文件
- * Author : anduo@meituan.com
+ * Author : anduo@qq.com
  * Version: 1.0
  * Date   : 15/7/5
  * time   : 16:59
