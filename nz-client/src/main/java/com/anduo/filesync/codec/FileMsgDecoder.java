@@ -8,12 +8,11 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
-
-import java.util.List;
-
 import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 /**
  * ━━━━━━神兽出没━━━━━━
@@ -110,7 +109,5 @@ public class FileMsgDecoder extends ByteToMessageDecoder {
         msg.setFileMd5(fileMd5);
         return msg;
     }
-
-}
 
 }
