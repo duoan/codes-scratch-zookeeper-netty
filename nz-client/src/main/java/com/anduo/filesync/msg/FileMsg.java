@@ -35,13 +35,21 @@ public class FileMsg implements Serializable {
     /**
      * 总包数.
      */
-    private int    sumCountPackage;
+    private long   sumCountPackage;
     /**
      * 当前包数.
      */
-    private int    countPackage;
+    private long   countPackage;
     /**
      * 文件名
+     */
+    private String fileName;
+    /**
+     * 文件来源数据节点
+     */
+    private String srcNode;
+    /**
+     * 文件md5值，防止文件在网路传输过程中对包
      */
     private String fileMd5;//
     /**
@@ -52,25 +60,25 @@ public class FileMsg implements Serializable {
     /**
      * @return the sumCountPackage
      */
-    public int getSumCountPackage() {
+    public long getSumCountPackage() {
         return sumCountPackage;
     }
 
     /**
      * @param sumCountPackage the sumCountPackage to set
      */
-    public void setSumCountPackage(int sumCountPackage) {
+    public void setSumCountPackage(long sumCountPackage) {
         this.sumCountPackage = sumCountPackage;
     }
 
     /**
      * @return the countPackage
      */
-    public int getCountPackage() {
+    public long getCountPackage() {
         return countPackage;
     }
 
-    public void setCountPackage(int countPackage) {
+    public void setCountPackage(long countPackage) {
         this.countPackage = countPackage;
     }
 
@@ -80,6 +88,22 @@ public class FileMsg implements Serializable {
 
     public void setBytes(byte[] bytes) {
         this.bytes = bytes;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public String getSrcNode() {
+        return srcNode;
+    }
+
+    public void setSrcNode(String srcNode) {
+        this.srcNode = srcNode;
     }
 
     public String getFileMd5() {
